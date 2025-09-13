@@ -6,9 +6,11 @@ dice = int(input("How many sides is on your die?:\n"))
 times = int(input("How many of dices do you want to use:?\n"))
 
 # there are dices with unlimited amount of sides
-amount = random.randint(1,dice)
 
 # we will use for loop
-for in range(1,times):
-    print(dice)
+for x in range(times):
+    amount = random.randint(1, dice)
+    print(amount)
+
+
 
