@@ -5,12 +5,7 @@ from operator import truediv
 dice = int(input("How many sides is on your die?:\n"))
 times = int(input("How many of dices do you want to use:?\n"))
 
-# there are dices with unlimited amount of sides
-
-# we will use for loop
+# we will use for loop that was suggested by my fiance
 for x in range(times):
     amount = random.randint(1, dice)
-    print(amount)
-
-
-
+    print(f"Dice {x+1} gave {amount}")
