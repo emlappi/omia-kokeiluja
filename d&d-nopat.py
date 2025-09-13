@@ -9,4 +9,4 @@ times = int(input("How many of dices do you want to use:?\n"))
 sides = random.randint(1,dice)
 
 #we will use for loop
-for
+for loop
