@@ -7,3 +7,5 @@ times = int(input("How many of dices do you want to use:?\n"))
 
 # there are dices with unlimited amount of sides
 sides = random.randint(1,dice)
+
+#we will use for loop
